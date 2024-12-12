@@ -1,0 +1,87 @@
+*{
+    /* background-color: black; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+}
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+}
+.card-body img{
+   min-width :50%;
+   max-height: 200px;
+}
+.img-1:hover{
+      
+    transform: rotate(-45deg);
+    transition: 1s;
+
+}
+.box-1:hover {
+    
+    box-shadow:1px 1px 20px rgb(19, 6, 6) ;
+}
+.box-2:hover {
+    transition: 1s;
+    box-shadow:1px 1px 20px rgb(19, 6, 6) ;
+}
+.box-3:hover {
+    transition: 1s;
+    
+    box-shadow:1px 1px 20px rgb(19, 6, 6) ;
+}
+.box-4:hover{
+    box-shadow:1px 1px 20px rgb(19, 6, 6) ;
+
+}
+.box-5:hover{
+    box-shadow:1px 1px 20px rgb(19, 6, 6) ;
+
+}
+.box-6:hover{
+    box-shadow:1px 1px 20px rgb(19, 6, 6) ;
+
+}
+.team-1:hover{
+    box-shadow:1px 1px 20px rgb(34, 100, 245) ;
+
+}
+.team-2:hover{
+    box-shadow:1px 1px 20px rgb(34, 100, 245) ;
+
+}
+.team-3:hover{
+    box-shadow:1px 1px 20px rgb(34, 100, 245) ;
+
+}
+.last-img:hover{
+    transition: 2s ease-in-out;
+
+    /* transform: skew(10deg); */
+    
+}
+/* @keyframes lastImg {
+    0%{animation-iteration-count: 2;
+        font-size: small;
+        box-shadow:1px 1px 20px rgb(34, 100, 245) ;
+
+        /* background-color: rgb(13, 14, 14); */
+        /* height: 50%;
+        width: 50%;
+    }
+    50%{
+        font-size: large;
+        height: 41;
+        background-size: contain;
+        width: 50%;
+        background-color:rgb(25, 4, 4);
+        
+        }
+} */ 
